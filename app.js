@@ -24,20 +24,30 @@ app.use("/slacktip", express.static(path.join(__dirname, '/app/slacktip')));
 // Redirects to index.html, seems to be required for heroku
 app.get('/egoc', function(req, res) {
   res.type('text/html');
-  res.send('An EGOC is looking for you');
+  res.send('You initiated an EGOC greeting!');
 
   var sender = req.query.user_name;
 
   webhookUri = "https://hooks.slack.com/services/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";
 
+  var selector = Math.random();
+
+  var egoc_message = "";
+
+  switch (selector % 3) {
+  	case 0: egoc_message = "EEEEEGOOOOOOOCCCCCC"; break;
+  	case 1: egoc_message = "WHEEEEEEEEEE"; break;
+  	case 2: egoc_message = "merp."; break;
+  }
+
   slack = new Slack(); 
   slack.setWebhook(webhookUri);
 
   slack.webhook({
-	channel: "@" + sender,
+	channel: req.query.text,
 	username: "EGOC",
 	icon_emoji: "http://oi58.tinypic.com/ruryq0.jpg",
-	text: "This is posted to #general and comes from a bot named webhookbot."
+	text: egoc_message
 	}, function(err, response) {
 	console.log(response);
   });
