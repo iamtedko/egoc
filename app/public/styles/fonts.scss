@@ -1,0 +1,224 @@
+
+@font-face {
+  font-family: 'BrandonBlack';
+  src: url('fonts/Brandon_blk.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonBlackItalic';
+  src: url('fonts/Brandon_blk_it.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonBold';
+  src: url('fonts/Brandon_bld.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonRegular';
+  src: url('fonts/Brandon_reg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonMediumItalic';
+  src: url('fonts/Brandon_med_it.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonRegularItalic';
+  src: url('fonts/Brandon_reg_it.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Knewave';
+  src: url('fonts/knewave.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mensch';
+  src: url('fonts/mensch.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MenschInline';
+  src: url('fonts/mensch-inline.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.8em;
+    line-height: 1.8em;
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.subtle {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid #4e6274;
+}
+
+.body {
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+#future h3 {
+    font-size: 4.0em;
+    line-height: 1.4em;
+}
+
+.text0 { //transactions
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+}
+
+.text1 { //music
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+}
+
+.text2 { //realestate
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+}
+
+.text3 { //sports
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+}
+
+#address-picker-button {
+    font-family: 'BrandonBold', Helvetica, Arial, sans-serif;
+}
+
+.endingtext {
+    color: #ffffff;
+    font-size:3.5em;
+    height: 100px;
+}
+
+#medium {
+    a {
+      color: #ffffff;
+      text-decoration:none;
+    }
+
+    a.explore {
+      font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+      font-size: 1.3em;
+      background: #50E3C2;
+      padding: 5px 10px;
+      border-radius: 5px;    
+    }
+
+    a.explore:hover {
+      text-decoration:none;
+      background: #86E9D9;
+    }
+
+    h3 {
+      color: #ffffff;
+      line-height: 1.5em;
+    }
+}
+
+span {
+    font-family: 'BrandonRegularItalic', Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+#bankpig span{
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+    font-size:1.5em;
+}
+
+span.sub {
+    font-style: italic;
+}
+
+.hover {
+    font-family: 'BrandonBlackItalic', Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+.numberpicker {
+    font-family: 'BrandonBold', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.externallinks, .externallinksmobile {
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    font-size: 1.0em;
+}
+
+
+// specific fonts for the about page
+#aboutpage {
+  .headline {
+    font-size: 1.8em;
+    line-height: 1.8em;
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+  } 
+
+  p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+  }
+}
+
+#students {
+    .namefont {
+      font-size: 1.0em;
+      line-height: 1.0em;
+      font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+    }
+
+    .detailsfont {
+      font-size: 0.5em;
+      line-height: 0.5em;
+      font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+    }
+}
+
+
+
+
+
+
+
+

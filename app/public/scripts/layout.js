@@ -1,0 +1,7 @@
+window.layout = {
+
+	onResize: function() {
+
+	},
+
+};

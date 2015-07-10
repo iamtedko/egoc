@@ -1,0 +1,35 @@
+
+@mixin vertical-align(){
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+@mixin horizontal-align(){
+  position: relative; 
+  left: 50%;
+      -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+@mixin transition($transition-property, $transition-time:.3s, $method:ease-in) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+@mixin roundedBorder($radius) {
+  -moz-border-radius: $radius / $radius;
+  -webkit-border-radius: $radius $radius;
+  border-radius: $radius / $radius;
+}

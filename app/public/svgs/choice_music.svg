@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="246px" height="286px" viewBox="0 0 246 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Option3-Artists</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.175 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Option3-Artists" sketch:type="MSArtboardGroup" transform="translate(0.500000, 0.500000)">
+            <ellipse id="Oval-104-Copy-2" fill="#C66DD8" sketch:type="MSShapeGroup" cx="145.43402" cy="137.466954" rx="5" ry="5"></ellipse>
+            <path d="M202.32265,99.4110823 C214.236077,110.372566 221.696029,126.062247 221.696029,143.486717 C221.696029,176.623802 194.715809,203.486717 161.43402,203.486717 C128.152232,203.486717 101.172011,176.623802 101.172011,143.486717 C101.172011,110.349632 128.152232,83.4867172 161.43402,83.4867172 C175.366577,83.4867172 188.194809,88.194338 198.401683,96.0991436 L172.47143,131.619516 C169.573841,128.946647 165.695566,127.312804 161.43402,127.312804 C152.462408,127.312804 145.189479,134.554112 145.189479,143.486717 C145.189479,152.419323 152.462408,159.66063 161.43402,159.66063 C170.405633,159.66063 177.678562,152.419323 177.678562,143.486717 C177.678562,139.210774 176.012018,135.322381 173.29036,132.430311 L202.32265,99.4110823 Z" id="Oval-102-Copy-2" fill="#2B2B2B" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-180-Copy" fill="#55CFB3" filter="url(#filter-2)" sketch:type="MSShapeGroup" x="34.4340202" y="77.4669543" width="133" height="133"></rect>
+            <polygon id="Star-6" fill="#FFFFFF" sketch:type="MSShapeGroup" points="54.2994048 154.349484 48.5006773 157.415454 49.6081357 150.921626 44.9168665 146.322671 51.400041 145.375234 54.2994048 139.466954 57.1987686 145.375234 63.6819432 146.322671 58.990674 150.921626 60.0981324 157.415454 "></polygon>
+            <polygon id="Star-6-Copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup" points="71.8378664 175.662737 66.0391388 178.728707 67.1465972 172.234879 62.4553281 167.635924 68.9385026 166.688487 71.8378664 160.780207 74.7372302 166.688487 81.2204047 167.635924 76.5291355 172.234879 77.636594 178.728707 "></polygon>
+            <polygon id="Star-6-Copy-3" fill="#FFFFFF" sketch:type="MSShapeGroup" points="91.5686356 195.506111 85.769908 198.572081 86.8773664 192.078252 82.1860973 187.479298 88.6692718 186.531861 91.5686356 180.623581 94.4679994 186.531861 100.951174 187.479298 96.2599048 192.078252 97.3673632 198.572081 "></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,467 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>The Future of Trust, Transactions, and Reputation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <h2>HELLO</h2>
+    <div class="hover"></div>
+
+    <div id="background">
+
+      <!-- <object data="svgs/background.svg" type="image/svg+xml"></object> -->
+        <svg version="1.1" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="bkg" fy="0" gradientTransform="rotate(60 .5 .5)">
+            <stop offset="0" stop-color="#f5f5f5"/>
+            <stop offset=".5" stop-color="#f5f5f5">
+              <!--<animate attributeName="offset" dur="4s" values="0.5;0.75;0.5" repeatCount="indefinite"/>-->
+            </stop>
+            <stop offset="1" stop-color="#f5f5f5"/>
+          </linearGradient>
+        </defs>
+        <rect id="background-rect" x="0" y="0" width="100%" height="100%" fill="url(#bkg)"/>
+      </svg>
+    </div>
+
+    <div id="foreground">
+
+      <div id="text-layer">
+
+        <section id="future" class="scene scene1">
+          <div class="sectioncontainer">
+            <div class="header">
+              <h3>Block chains are the future of<div id="futuretext" class="text0"><span>Transactions</span></div></h3>
+            </div>
+            <div class="body"></div>
+            <div class="visual"></div>
+          </div>
+
+          <div class="externallinks">
+            <a href="about.html"><img id="thelab" src="svgs/thelab.svg"/></a>
+            <a href="https://medium.com/humanizing-bitcoin-blockchain"><img id="posts" src="svgs/posts.svg"/></a>
+            <a href="http://www.ideofutures.com"><img id="futureslogo" src="svgs/futureslogo.svg"/></a>
+            <a href="https://twitter.com/ideofutures"><img id="twittericon" src="svgs/twittericon.svg"/></a>
+            <a href="mailto:futures@ideo.com"><img id="mailicon" src="svgs/mailicon.svg"/></a>
+           
+          </div>
+
+          <div id="futuredownarrow" class="downarrow"></div>
+          
+        </section>
+
+        <object id="backgroundoverlay" data="svgs/backgroundline.svg" type="image/svg+xml"></object>
+
+        <section id="intro" class="scene scene2">
+          <div class="sectioncontainer">
+            <div class="body"></div>
+            <div class="visual">
+                <!-- <div id="introbitcoin"></div> -->
+            </div>
+            <div id="introfirst">
+              <h3><span>Bitcoin is a digital currency built on a new technology</span></h3>
+              <h3><span>called the block chain.</span></h3>
+            </div>
+            <div id="introsecond">
+              <h3>Block chains have many potential uses but<br/> first let's talk about how the Bitcoin currency works.</h3>
+            </div>
+          </div>
+        </section>
+
+        <section id="bank" class="scene scene3">
+          <div id="banklines">
+              <div id="banknode1" class="node"></div>
+              <div id="banknode2" class="node"></div>
+              <div id="banknode3" class="node"></div>
+              <div id="banknode4" class="node"></div>
+              <div id="banknode5" class="node"></div>
+              <div id="banknode6" class="node"></div>
+              <div id="banknode7" class="node"></div>
+              <div id="banknode8" class="node"></div>
+              <div id="banknode9" class="node"></div>
+              <div id="banknode10" class="node"></div>
+              <div id="banknode11" class="node"></div>
+          </div>
+          <div class="sectioncontainer">
+            <div class="header">
+              <h3></h3>
+            </div>
+            <div class="body"></div>
+            <div class="visual">
+            </div>
+          </div>
+          <div id="bankpig" class="hidden">
+            <span>To send money now you have to go through a central authority like a bank.</span>
+          </div>
+        </section>
+
+        <section id="usecase" class="scene scene4">
+          <div class="sectioncontainer">
+            <div class="header">
+              <h3><span>Let’s buy something with bitcoin, and see what happens behind the scenes.</span></h3>
+            </div>
+            <div class="body"></div>
+            <div class="visual">
+              <div id="usecasemusic" class="usecase">
+                   <img src="svgs/choice_music.svg"/>
+              </div>
+              <div id="usecasehouse" class="usecase">
+                   <img src="svgs/choice_house.svg"/>
+              </div>
+              <div id="usecasesports" class="usecase">
+                   <img src="svgs/choice_sports.svg"/>
+              </div>
+                <div style="clear:both;"></div>
+                <div class="usecasetext"><span id="usecasetextmusic">A New Album</span></div>
+                <div class="usecasetext"><span id="usecasetexthouse">Green Your Home</span></div>
+                <div class="usecasetext"><span id="usecasetextsports">Tickets to a Game</span></div>
+
+            </div>
+          </div>
+          <div id="usecasedownarrow" class="downarrow hidden"></div>
+        </section>
+
+          <section id="address" class="scene scene5">
+            <div class="sectioncontainer">
+              <div class="header" id="pickaddressheader">
+                <h3>To send or receive bitcoin, your computer needs an address.</h3>
+              </div>
+              <!--<div class="body"></div>
+
+              <div class="visual">
+                <img class="hidden dancingSVG" style="top: 20px, left: 10px" data-rad="1" src="svgs/address0.png"></img>
+                <img class="hidden dancingSVG" style="top: 120px, left: 10px" data-rad="30" src="svgs/address1.png"></img>
+                <img class="hidden dancingSVG" style="top: 220px, left: 110px" data-rad="60" src="svgs/address2.png"></img>
+                <img class="hidden dancingSVG" style="top: 20px, left: 120px" data-rad="90" src="svgs/address3.png"></img>
+                <img class="hidden dancingSVG" style="top: 10px, left: 20px" data-rad="120" src="svgs/address4.png"></img>
+                <img class="hidden dancingSVG" style="top: 320px, left: 10px" data-rad="150" src="svgs/address5.png"></img>
+                <img class="hidden dancingSVG" style="top: 200px, left: 300px" data-rad="180" src="svgs/address6.png"></img>
+                <img class="hidden dancingSVG" style="top: 220px, left: 120px" data-rad="220" src="svgs/address7.png"></img>
+              </div>-->
+            </div>
+          </section>
+
+          <section id="pickaddress" class="scene scene6">
+            <div class="sectioncontainer">
+              <div class="numberpicker"></div>
+              <div id="addresspicker"></div>
+              <div id="address-picker-button" class="address-picker-button-class">Pick Your Address</div>
+            </div>
+            <div id="addresspickerdownarrow" class="downarrow hidden"></div>
+          </section>
+
+          <section id="useaddress" class="scene scene7">
+          <div class="sectioncontainer">
+              <div id="public">
+                <h3>It’s public. Anyone can see money sent to or from the address. It’s also anonymous. No one knows this address is you unless you tell them.</h3>
+              </div>
+              <div class="body"></div>
+              <div class="visual">
+                <img id="useaddressimages" src="svgs/address0.svg"/>
+              </div>
+            </div>
+          </section>
+
+          <section id="secretkey" class="scene scene8">
+            <div class="sectioncontainer">
+              <div class="header">
+                <h3>Your address comes with a key. No one can send anything from your address without it.</h3>
+              </div>
+
+              <div class="visual">
+                <div id="addresswithkey">
+                  <img id="addresskeyimg" src="svgs/address1.png"/>
+                  <div id="keyimg" style="opacity:0"></div> 
+                  <div class="popout" id="secretkeyinfo" style="opacity:0">
+                    <span>You keep your key secret, and can share your address.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="account" class="scene scene9">
+            <div class="sectioncontainer">
+              <div class="header">
+                <h3>You can get bitcoin by being paid in bitcoin or by exchanging another currency to bitcoin.</h3>
+              </div>
+              <div class="body"></div>
+              <div class="visual">
+                <img class="cycle" src="svgs/cycle.svg"/>
+                <img class="dollar" src="svgs/Icon-Dollar.svg"/>
+                <img class="btc" src="svgs/Icon-BitCoin.svg"/>
+              </div>
+            </div>
+          </section>
+
+          <section id="transfer" class="scene scene10">
+            <div class="sectioncontainer">
+              <div class="header">
+                <h3><span>Choose a home upgrade to purchase.</span></h3>
+              </div>
+              <div class="body"></div>
+              <div class="visual">
+                <div id="transfer4" class="transfer">
+                  <div class="flip">
+                    <div class="front">
+                       <img src="svgs/house01.png"/>
+                    </div>
+                    <div class="back">
+                      <img src="svgs/address24.png"/>
+                    </div>
+                  </div>
+                </div>
+                <div id="transfer5" class="transfer">
+                  <div class="flip">
+                    <div class="front">
+                       <img src="svgs/house02.png"/>
+                    </div>
+                    <div class="back">
+                      <img src="svgs/address25.png"/>
+                    </div>
+                  </div>
+                </div>
+                <div id="transfer6" class="transfer">
+                  <div class="flip">
+                    <div class="front">
+                      <img src="svgs/house03.png"/>
+                    </div>
+                    <div class="back">
+                      <img src="svgs/address26.png"/>
+                    </div>
+                  </div>
+                </div>
+                <div style="clear:both;"></div>
+                <div class="transfertext"><span id="transfertext1">Solar Panels</span></div>
+                <div class="transfertext"><span id="transfertext2">Efficient Windows</span></div>
+                <div class="transfertext"><span id="transfertext3">Smart Thermostat</span></div>
+              </div>
+            </div>
+            <div id="transferdownarrow" class="downarrow hidden"></div>
+          </section>
+
+          <section id="transaction" class="scene scene11">
+            <div class="sectioncontainer">
+              <div class="header">
+                <h3>Your computer creates a transaction, an electronic instruction to move bitcoin between addresses.</h3>
+              </div>
+              <div class="body"></div>
+              <div class="visual">
+                <div id="transline"></div>
+                <div id="transkey"></div>
+                <div class="you"><img/></div>
+                <div class="them"><img/></div>
+                <div style="clear:both;"></div>
+                <div class="transactiontext"><span>That's you</span></div>
+                <div class="transactiontext"></div>
+                <div class="transactiontext"><span>Your lucky recipient</span></div>
+              </div>
+            </div>
+          </section>
+
+          <section id="ledger" class="scene scene12">
+            <div class="sectioncontainer">
+
+              <div id="ledgerleft">
+                <h3>Your transaction gets added to a ledger that anyone can look at.</h3>
+              </div>
+              <div class="visual">
+                <object id="animatedledger" data="svgs/completeblock.svg" type="image/svg+xml"></object>
+              </div>
+              <div id="ledgerright">
+                <h3>Computers compete to package these transactions into solid unchangable blocks.</h3>
+              </div>
+            </div>
+          </section>
+
+          <section id="package" class="scene scene13">
+            <div class="sectioncontainer">
+              <div id="hardwork">
+                <div id="packagepanel">
+                  <h3>Packaging is hard work. It’s usually done by special computers dedicated to the task.</h3>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="reward" class="scene scene14">
+            <div class="sectioncontainer">
+              <div class="header">
+                <h3>The winning computer receives a reward for the work. The reward is new bitcoin.</h3>
+              </div>
+              <div class="body"></div>
+              <div class="visual">
+                <div id="computerwinner"></div>
+                <object id="rewardstars" data="svgs/rewardstars.svg" type="image/svg+xml"></object>
+              </div>
+            </div>
+          </section>
+
+          <section id="network" class="scene scene15">
+            <div class="sectioncontainer">
+              <div class="header">
+                <h3>The winning computer then sends its completed block out to the rest of the network.</h3>
+              </div>
+              <div class="body"></div>
+              <div class="visual">
+                <div id="animatednetwork"></div>
+                <!-- 1 -->
+                <div class="check" id="check1" style="margin-left: 206px; margin-top:91px;"></div>
+                <div class="check" id="check2" style="margin-left: 656px; margin-top:95px;"></div>
+
+                <!-- 2 -->
+                <div class="check" id="check3" style="margin-left: 206px; margin-top:34px;"></div>
+                <div class="check" id="check4" style="margin-left: 206px; margin-top:145px;"></div>
+                <div class="check" id="check5" style="margin-left: 746px; margin-top:95px;"></div>
+
+                <!-- 3 -->
+                <div class="check" id="check6" style="margin-left: 805px; margin-top:95px;"></div>
+                <div class="check" id="check7" style="margin-left: 45px; margin-top:219px;"></div>
+
+                <!-- 4 -->
+                <div class="check" id="check8" style="margin-left: 746px; margin-top:150px;"></div>
+                <div class="check" id="check9" style="margin-left: 45px; margin-top:268px;"></div>
+
+                <!-- 5 -->
+                <div class="check" id="check10" style="margin-left: 656px; margin-top:150px;"></div>
+                <div class="check" id="check11" style="margin-left: -55px; margin-top:143px;"></div>
+
+                <!-- 6 -->
+                <div class="check" id="check12" style="margin-left: -55px; margin-top:95px;"></div>
+                <div class="check" id="check13" style="margin-left: 656px; margin-top:200px;"></div>
+
+                <!-- 7 -->
+                <div class="check" id="check14" style="margin-left: 51px; margin-top:90px;"></div>
+                <div class="check" id="check15" style="margin-left: 801px; margin-top:327px;"></div>
+
+                <!-- 8 -->
+                <div class="check" id="check16" style="margin-left: 50px; margin-top:34px;"></div>
+                <div class="check" id="check17" style="margin-left: 940px; margin-top:38px;"></div>
+
+                <!-- 9 -->
+                <div class="check" id="check18" style="margin-left: 1029px; margin-top:-85px;"></div>
+                <div class="check" id="check19" style="margin-left: 52px; margin-top:-160px;"></div>
+
+                <!-- 10 -->
+                <div class="check" id="check20" style="margin-left: 1085px; margin-top:-85px;"></div>
+                <div class="check" id="check21" style="margin-left: -105px; margin-top:94px;"></div>
+
+                <div class="popout" id="networkpropinfo" style="opacity:0;">
+                  <span>All the other computers check to make sure the new block is correct.</span>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <section id="blockchain" class="scene scene16">
+            <div class="sectioncontainer">
+              <div class="inlinepanel leftpanel">
+                <h3>The new block becomes part of a chain that includes all older blocks. This is the block chain.</h3>
+              </div>
+              <div class="visual">
+                <object style="visibility:hidden;" id="animatedwinner" data="svgs/completedblock.svg" type="image/svg+xml"></object>
+                <object id="animatedblockchain" data="svgs/blockchain.svg" type="image/svg+xml"></object>
+                <div class="popout" id="blockchaininfo" style="opacity:0">
+                  <span>The hard work it takes to package each block, makes it near impossible to change the history of records.</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="resolution" class="scene scene17">
+            <div class="sectioncontainer">
+            <div class="inlinepanel rightpanel">
+              <h3></h3>
+            </div>              
+            </div>
+          </section>
+
+
+          <section id="medium" class="scene scene18">
+            <div class="sectioncontainer">
+              <div class="header">
+                <h3>The block chain was invented to record payments of Bitcoin, but it’s really more general than that. Find out how block chains will transform...</h3>
+                <br/><br/>
+                  <a class="underline" href="https://medium.com/humanizing-bitcoin-blockchain/humans-bits-blocks-3af78dbc491f" target="_blank">Transactions</a>
+                  <a class="underline" href="https://medium.com/humanizing-bitcoin-blockchain/musicians-bits-blocks-8991be1c4c9" target="_blank">Music</a>
+                  <a class="underline" href="https://medium.com/humanizing-bitcoin-blockchain/homebuyers-bits-blocks-da24f61e25ae" target="_blank">Real Estate</a>
+                  <a class="underline" href="https://medium.com/humanizing-bitcoin-blockchain/sports-fans-8c31da35fdbe" target="_blank">Sports Fandom</a>
+                  <a class="underline" href="https://medium.com/humanizing-bitcoin-blockchain/food-bits-blocks-2933b7de7f29" target="_blank">Food</a>
+
+
+              </div>
+            </div>
+            <div id="footer">
+              <div id="footercontainer">
+                <a href="about.html"><img id="thelab" src="svgs/thelab.svg"/></a>
+                <a href="https://medium.com/humanizing-bitcoin-blockchain"><img id="posts" src="svgs/posts.svg"/></a>
+                <a href="http://www.ideofutures.com"><img id="futureslogo" src="svgs/futureslogo.svg"/></a>
+                <a href="https://twitter.com/ideofutures"><img id="twittericon" src="svgs/twittericon.svg"/></a>
+                <a href="mailto:futures@ideo.com"><img id="mailicon" src="svgs/mailicon.svg"/></a>
+              </div>
+            </div>
+          </section>
+      </div>
+
+    </div>
+    <div class="bcrumbpos">
+      <div id="breadcrumbs">
+        <div id="breadcrumbbg"></div>
+        <div style="margin-top:10px;" class="crumb crumb1 visible active"></div>
+        <div style="margin-top:30px;" class="crumb crumb2 crumb3 crumb4"></div>
+        <div style="margin-top:50px;" class="crumb crumb5 crumb6 crumb7 crumb8 crumb9 crumb10"></div>
+        <div style="margin-top:70px;" class="crumb crumb11 crumb12 crumb13 crumb14 crumb15 crumb16"></div>
+        <div style="margin-top:90px;" class="crumb crumb17"></div>
+        <div style="margin-top:110px;" class="crumb crumb18"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      // Redirect mobile and small-screen users
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        console.log("useragent is " + navigator.userAgent);
+        document.location = "about.html";
+      }
+      // if (screen.width <= 899 || screen.height <= 649 || window.innerWidth <= 899 || window.innerHeight <= 649) {
+      //   document.location = "about.html";
+      // }
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50304838-36', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/underscore-min.js"></script>
+    <script src="scripts/velocity.min.js"></script>
+    <script src="scripts/ScrollMagic.min.js"></script>
+    <script src="scripts/TweenMax.min.js"></script>
+    <script src="scripts/TimelineMax.min.js"></script>
+    <script src="scripts/animation.velocity.min.js"></script>
+    <script src="scripts/animation.gsap.min.js"></script>
+    <script src="scripts/debug.addIndicators.min.js"></script>
+    <script src="scripts/bitcoinjs.min.js"></script>
+    <script src="scripts/helpers.js"></script>
+    <script src="scripts/scenes.js"></script>
+    <script src="scripts/layout.js"></script>
+    <script src="scripts/main.js"></script>
+
+    
+</body>
+</html>

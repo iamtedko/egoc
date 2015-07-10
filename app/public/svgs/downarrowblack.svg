@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="62px" viewBox="0 0 50 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Line + Path 608</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Line-+-Path-608" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)" stroke-width="4" stroke="#000000">
+            <g sketch:type="MSShapeGroup">
+                <path d="M22.5818182,0.419117647 L22.5818182,53.2545453" id="Line" stroke-linecap="square"></path>
+                <path d="M0.111079545,33.4901195 L22.5859727,56.7060555 L45.750071,33.4901194" id="Path-608"></path>
+            </g>
+        </g>
+    </g>
+</svg>

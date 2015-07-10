@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'BrandonBlack';
+  src: url("fonts/Brandon_blk.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrandonBold';
+  src: url("fonts/Brandon_bld.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrandonRegular';
+  src: url("fonts/Brandon_reg.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Knewave';
+  src: url("fonts/knewave.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Mensch';
+  src: url("fonts/mensch.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'MenschInline';
+  src: url("fonts/mensch-inline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+  font-style: italic;
+  text-align: center; }
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 1.8em;
+  line-height: 1.8em;
+  font-family: 'BrandonRegular', Helvetica, Arial, sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.subtle {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid #4e6274; }
+
+.body {
+  font-family: 'BrandonRegular', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  color: #000000; }
+
+#future h3 {
+  font-size: 3.0em; }
+  #future h3 #futuretext {
+    font-size: 2.5em;
+    line-height: 1.1em; }
+
+.text0 {
+  font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
+  text-transform: lowercase;
+  font-weight: bold; }
+
+.text1 {
+  font-family: 'Knewave', Helvetica, Arial, sans-serif;
+  text-transform: lowercase; }
+
+.text2 {
+  font-family: 'Dancing Script', Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+  font-weight: bold; }
+
+.text3 {
+  font-family: 'MenschInline', Helvetica, Arial, sans-serif;
+  text-transform: uppercase; }
+
+.endingtext {
+  color: #ffffff;
+  font-size: 4.5em;
+  height: 100px; }
+
+#medium a {
+  color: #ffffff; }
+#medium a.explore {
+  font-family: 'BrandonRegular', Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  background: #50E3C2;
+  padding: 5px 10px;
+  border-radius: 5px; }
+#medium a.explore:hover {
+  text-decoration: none;
+  background: #86E9D9; }
+#medium h3 {
+  color: #ffffff;
+  line-height: 1.5em; }
+
+span {
+  font-family: 'Mensch', Helvetica, Arial, sans-serif;
+  font-size: 1.3em; }
+
+.hover {
+  font-family: 'Mensch', Helvetica, Arial, sans-serif;
+  font-size: 1.3em; }
+
+.numberpicker {
+  font-family: 'Mensch', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em; }
+
+.externallinks {
+  font-family: 'Mensch', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+
+#aboutpage .headline {
+  font-size: 1.8em;
+  line-height: 1.8em;
+  font-family: 'BrandonRegular', Helvetica, Arial, sans-serif; }
+#aboutpage p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'BrandonRegular', Helvetica, Arial, sans-serif; }
+
+#students .namefont {
+  font-size: 1.0em;
+  line-height: 1.0em;
+  font-family: 'BrandonRegular', Helvetica, Arial, sans-serif; }
+#students .detailsfont {
+  font-size: 0.5em;
+  line-height: 0.5em;
+  font-family: 'BrandonRegular', Helvetica, Arial, sans-serif; }
+
+/*# sourceMappingURL=fonts.css.map */

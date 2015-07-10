@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>mailicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="mailicon" sketch:type="MSLayerGroup" transform="translate(0.000000, -1.000000)">
+            <path d="M23.86,17.002 L0.14,17.002 L0.14,0.998 L23.86,0.998 L23.86,17.002 L23.86,17.002 Z M2.14,15.002 L21.86,15.002 L21.86,2.998 L2.14,2.998 L2.14,15.002 L2.14,15.002 Z" id="Shape" fill="#919191" sketch:type="MSShapeGroup"></path>
+            <path d="M1.115,2.023 L12,10.156 L22.886,2.023" id="Shape" stroke="#919191" stroke-width="2" sketch:type="MSShapeGroup"></path>
+            <path d="M22.287,16.54 L13.393,9.896 L12,10.75 L10.705,9.824 L1.715,16.541 L0.517,14.941 L9.46,8.256 L12,10.156 L14.4,8.152 L23.484,14.938 L22.287,16.54 Z" id="Shape" fill="#919191" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

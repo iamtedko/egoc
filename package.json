@@ -1,0 +1,25 @@
+{
+  "name": "fistbump",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideo/fistbump"
+  },
+  "author": "ideo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "fsmonitor": "*",
+    "request": "^2.36.0",
+    "underscore": "^1.6.0",
+	"slack-node": "^0.1.3"
+  }
+}

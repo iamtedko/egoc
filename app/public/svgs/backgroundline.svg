@@ -1,0 +1,25 @@
+<svg width="100%" height="2900" version="1.1" viewBox="0 0 1800 2900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <linearGradient id="fade1" fy="0" gradientTransform="rotate(0)" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#BD10E0"></stop>
+        <stop offset="0.35" stop-color="#ffffff"></stop>
+    </linearGradient>
+    <linearGradient id="fade2" fy="0" gradientTransform="rotate(0)" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#48B9C9"></stop>
+        <stop offset="0.85" stop-color="#ffffff"></stop>
+    </linearGradient>
+    <linearGradient id="fade3" fy="0" gradientTransform="rotate(0)" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#ffffff"></stop>
+        <stop offset="0.3" stop-color="#F5A623"></stop>
+    </linearGradient>
+    </defs>
+    <line x1="0" y1="0" x2="1600" y2="1000" style="stroke:#F5A623;stroke-width:4;"/>
+    <line x1="-10" y1="75" x2="600" y2="2900" style="stroke:url(#fade1);stroke-width:4;"/>
+    <line x1="300" y1="0" x2="100%" y2="600" style="stroke:#4A90E2;stroke-width:4;"/>
+    <line x1="0" y1="720" x2="100%" y2="100" style="stroke:#60C89A;stroke-width:4;"/>
+    <line x1="0" y1="350" x2="600" y2="0" style="stroke:#48B9C9;stroke-width:4;"/>
+    <line x1="0" y1="2900" x2="1800" y2="900" style="stroke:url(#fade3);stroke-width:4;"/>
+    <line x1="0" y1="900" x2="1800" y2="1700" style="stroke:#4A90E2;stroke-width:4;"/>
+    <line x1="0" y1="1000" x2="1800" y2="2900" style="stroke:#48B9C9;stroke-width:4;"/>
+    <line x1="0" y1="2400" x2="1800" y2="1900" style="stroke:#60C89A;stroke-width:4;"/>
+</svg>

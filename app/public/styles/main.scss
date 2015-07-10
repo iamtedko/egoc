@@ -1,0 +1,317 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import "chapters.scss";
+@import "aboutchapters.scss";
+@import "mixins.scss";
+@import "var.scss";
+@import "fonts.scss";
+
+html,body {
+    max-width:1000%;
+    overflow-x:hidden;
+}
+
+html.disablescroll, body.disablescroll {
+    overflow:hidden;
+}
+
+.bcrumbpos {
+  position:fixed;
+  top: 0;
+  right: 3%;
+  width: 70px;
+  height: 100%;
+  height: 100%;
+}
+
+#breadcrumbs {
+  @include vertical-align();
+  width: 30px;
+  height: 135px;
+  bottom: 30px;
+  left: 30px;
+
+  #breadcrumbbg {
+    position:absolute;
+    border-radius:5px;
+    width: 100%;
+    height:100%;
+    background:#070707;
+    opacity: 0.1;
+  }
+
+  .crumb {
+    background:url('/svgs/visited_page.png') no-repeat center;
+    background-size:13px 13px;
+    height: 17px;
+    width: 17px;
+    margin-left: 7px;
+    padding:0px;
+    position:absolute;
+  }
+
+  .crumb.visible.active {
+    background:url('/svgs/active_page.png') no-repeat center;
+    background-size:13px 13px;
+  }
+
+  .crumb.visible {
+    background:url('/svgs/visited_page.png') no-repeat center;
+    background-size:13px 13px;
+
+  }
+}
+
+#background {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: none;
+}
+
+#backgroundoverlay {
+    opacity: 0.2;
+    position:absolute;
+}
+
+.overlayblend {
+  mix-blend-mode: overlay;
+}
+
+.hover {
+  position: absolute;
+  display: none;
+  top: 0; left: 0;
+  background: #50E3C2;
+  color:white;
+  padding: 10px;
+  width: 275px auto;
+  max-width:275px;
+  height: auto;
+  z-index: 1070;
+  font-size: 16px;
+  border-radius:5px;
+  // opacity: 1!important;
+}
+
+.downarrow {
+    position:absolute;
+    bottom: 50px;
+    left: 0;
+    cursor: pointer;
+    background-size: contain;
+    width:100%;
+    height:62px;
+    opacity: 1;
+    @include transition(opacity,.6s);
+    &.hidden {
+      opacity: 0!important;
+    }
+}
+
+#foreground {
+  overflow:hidden;
+  width:100%;
+  height:100%;
+
+  #text-layer {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+
+    .scene {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 100px;
+
+      .sectioncontainer {
+          height: 100%;
+          margin: 0 auto;
+          max-width: 900px;
+          position: relative;
+          width: 100%;
+          border:1px solid transparent;
+      }
+
+      .header {
+        position:relative;
+        clear: both;
+        padding-top: 15%;
+      }
+
+      .body {
+        @include horizontal-align();
+        width: 80%;
+      }
+
+      .visual {
+        width: 100%;
+        height: 500px;
+        background: transparent;
+        position: relative;
+        padding: 0 0;
+      }
+
+      .inlinepanel {
+        display: inline-block;
+        margin-top: 100px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      .leftpanel {
+        width: 25%;
+        margin-left:0;
+
+        a.explore {
+          display: inline-block;
+          margin-top: 20px;
+        }
+      }
+
+      .rightpanel {
+        width:35%;
+        margin-left:200px;
+      }
+    }
+  }
+}
+
+.interactive {
+    -webkit-animation-name: pulsate-white;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+
+    animation-name: pulsate-white;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+    box-shadow: 0 0 0px #fff;
+}
+
+.interactive-green {
+    -webkit-animation-name: pulsate-green;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+
+    animation-name: pulsate-green;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+    box-shadow: 0 0 0px #60C89A;
+
+    &:hover,&.active,&.nope {
+      -webkit-animation-name: none;
+      -webkit-animation-duration: 0s;
+
+      animation-name: none;
+      animation-duration: 0s;
+    }
+}
+
+@-webkit-keyframes pulsate-white {
+    0% {  box-shadow:0 0 0px  #fff}
+    10% { box-shadow: 0 0 0px #fff}
+    20% { box-shadow: 0 0 0px #fff}
+    30% { box-shadow: 0 0 2px #fff}
+    40% { box-shadow: 0 0 4px #fff}
+    50% { box-shadow: 0 0 5px #fff}
+    60% { box-shadow: 0 0 6px #fff}
+    70% { box-shadow: 0 0 7px #fff}
+    80% { box-shadow: 0 0 8px #fff}
+    90% { box-shadow: 0 0 9px #fff}
+    100% {box-shadow: 0 0 10px #fff}
+}
+
+@-webkit-keyframes pulsate-green {
+    0% {  box-shadow:0 0 0px  #60C89A}
+    10% { box-shadow: 0 0 3px #60C89A}
+    20% { box-shadow: 0 0 5px #60C89A}
+    30% { box-shadow: 0 0 7px #60C89A}
+    40% { box-shadow: 0 0 8px #60C89A}
+    50% { box-shadow: 0 0 9px #60C89A}
+    60% { box-shadow: 0 0 11px #60C89A}
+    70% { box-shadow: 0 0 13px #60C89A}
+    80% { box-shadow: 0 0 15px #60C89A}
+    90% { box-shadow: 0 0 16px #60C89A}
+    100% {box-shadow: 0 0 18px #60C89A}
+}
+
+@keyframes pulsate-white {
+    0% {  box-shadow:0 0 0px  #fff}
+    10% { box-shadow: 0 0 0px #fff}
+    20% { box-shadow: 0 0 0px #fff}
+    30% { box-shadow: 0 0 2px #fff}
+    40% { box-shadow: 0 0 4px #fff}
+    50% { box-shadow: 0 0 5px #fff}
+    60% { box-shadow: 0 0 6px #fff}
+    70% { box-shadow: 0 0 7px #fff}
+    80% { box-shadow: 0 0 8px #fff}
+    90% { box-shadow: 0 0 9px #fff}
+    100% {box-shadow: 0 0 10px #fff}
+}
+
+@keyframes pulsate-green {
+    0% {  box-shadow:0 0 0px  #60C89A}
+    10% { box-shadow: 0 0 3px #60C89A}
+    20% { box-shadow: 0 0 5px #60C89A}
+    30% { box-shadow: 0 0 7px #60C89A}
+    40% { box-shadow: 0 0 8px #60C89A}
+    50% { box-shadow: 0 0 9px #60C89A}
+    60% { box-shadow: 0 0 11px #60C89A}
+    70% { box-shadow: 0 0 13px #60C89A}
+    80% { box-shadow: 0 0 15px #60C89A}
+    90% { box-shadow: 0 0 16px #60C89A}
+    100% {box-shadow: 0 0 18px #60C89A}
+}
+
+@-webkit-keyframes pulsate-white {
+    0% {  box-shadow:0 0 0px  #fff}
+    10% { box-shadow: 0 0 0px #fff}
+    20% { box-shadow: 0 0 0px #fff}
+    30% { box-shadow: 0 0 2px #fff}
+    40% { box-shadow: 0 0 4px #fff}
+    50% { box-shadow: 0 0 5px #fff}
+    60% { box-shadow: 0 0 6px #fff}
+    70% { box-shadow: 0 0 7px #fff}
+    80% { box-shadow: 0 0 8px #fff}
+    90% { box-shadow: 0 0 9px #fff}
+    100% {box-shadow: 0 0 10px #fff}
+}
+
+
+@keyframes pulsate-white {
+    0% {  box-shadow:0 0 0px  #fff}
+    10% { box-shadow: 0 0 0px #fff}
+    20% { box-shadow: 0 0 0px #fff}
+    30% { box-shadow: 0 0 2px #fff}
+    40% { box-shadow: 0 0 4px #fff}
+    50% { box-shadow: 0 0 5px #fff}
+    60% { box-shadow: 0 0 6px #fff}
+    70% { box-shadow: 0 0 7px #fff}
+    80% { box-shadow: 0 0 8px #fff}
+    90% { box-shadow: 0 0 9px #fff}
+    100% {box-shadow: 0 0 10px #fff}
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}

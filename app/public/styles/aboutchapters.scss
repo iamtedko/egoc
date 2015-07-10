@@ -1,0 +1,373 @@
+@import "mixins.scss";
+
+.externallinks {
+	  position:absolute;
+	  text-align: left;
+	  top:20px;
+	  left:20px!important;
+	  width:400px;
+	  height:30px;
+
+	  #thelab {
+	  	height: 11px;
+	  }
+
+	  #posts {
+	  	height: 11px;
+	  }
+
+	  #explorations {
+	  	height: 11px;
+	  }
+
+	  #futureslogo {
+	  	height: 11px;
+	  	vertical-align: middle;
+	  }
+
+	  #twittericon {
+	  	height: 11px;
+	  }
+
+	  #mailicon {
+	  	height: 11px;
+	  }
+
+	  a {
+	    margin-right:20px;
+	    display: inline-block;
+	    color: #ffffff;
+
+	    &:hover{
+	      color: #ffffff;
+	    }
+	  }
+}
+
+ .externallinksmobile {
+ 	padding-top: 3%;
+
+ 	#link3 {
+
+ 	}
+	a {
+		display: inline-block;
+		color: #919191;
+
+		&:hover{
+			color: #000000;
+		}
+	}
+ }
+
+#aboutbackgroundline {
+	opacity: 0.1;
+}
+
+#foreground {
+
+  #text-layer {
+
+	.aboutscene {
+	  min-height: 95%;
+	  width: 100%;
+	  text-align: center;
+	  overflow:hidden;
+
+	  .sectioncontainer {
+	      height: auto;
+	      margin: 0 auto;
+	      max-width: 900px;
+	      width: 100%;
+		  padding-bottom: 10%;
+	  }
+
+	  .header {
+	    position:relative;
+	    clear: both;
+	    padding-top: 15%;
+	    width: 90%;
+	    margin: auto;
+
+		font-family: 'BrandonRegular', Helvetica, Arial, sans-serif;
+
+	    h3.headline {
+		    border: 0px solid #88D8DA;
+		    border-bottom-width: 5px;
+		    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+		    display: inline;
+		    font-size: 3em;
+		    color: #ffffff;
+	    }
+
+	    h3 {
+		    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;  
+	    }
+
+	    p {
+	    	font-size: 1.2em;
+	    	line-height: 2em;
+	    }
+	  }
+
+	  .inlinepanel {
+	    display: inline-block;
+	    margin-top: 100px;
+	    text-align: left;
+	    vertical-align: top;
+	  }
+
+	  .leftpanel {
+	    width: 290px;
+	    margin-left:-100px;
+
+	    a.explore {
+	      display: inline-block;
+	      margin-top: 20px;
+	    }
+	  }
+
+	  .rightpanel {
+	    width:400px;
+	    margin-left:200px;
+	  }
+	}
+  }
+}
+
+#creating {
+	background: #ffffff;
+	height: 90% !important;
+
+	.sectioncontainer {
+		height:100% !important;
+	}
+
+	.futuresheader {
+		background: url('/imgs/bitsblockslogo.png') no-repeat center;
+		background-size: 300px 132px;
+		height: 25%;
+		margin:auto;
+	}
+	.header {
+		background: url('/imgs/horizon.jpg') no-repeat center;
+		background-size: cover;
+		border: 20px solid #e3e3e3;
+		max-width: 100% !important;
+		width: 100% !important;
+		height: 80% !important;
+	}
+}
+
+#newtech {
+	background: #88D8DA;
+
+	.header { 
+		width: 70% !important;
+		margin: auto; 
+		text-align:left;
+	}
+}
+
+#dotank {
+	background: #68C7CA;
+	
+	.header { 
+		width: 70% !important;
+		margin: auto; 
+		text-align:left;
+	}
+}
+
+#video {
+	background: #f2f2f2;
+	height: 100% !important;
+
+	.sectioncontainer {
+		height: 100% !important;
+	}
+
+	.header {
+		padding-top: 10% !important;
+	}
+
+	#aboutvideocontainer {
+		cursor: pointer;
+		background: url('/svgs/actionphoto.jpg') no-repeat;
+		width: 85%;
+		height: 80%;
+		margin-top: 0px;
+		margin: auto;
+
+	    span {
+		  color: #ffffff;
+		  font-family: 'BrandonBlackItalic', Helvetica, Arial, sans-serif;
+		  font-size: 3em;
+		  padding-top: 21%;
+		  display: block;
+	    }
+	}
+}
+
+
+#venture {
+	background: #f2f2f2;
+
+	.header {
+		max-width: 70%;
+		text-align: left;
+	}
+
+	.header1 {
+		float:left;
+		width: 50% !important;
+		padding-left:5%;
+		padding-right:5%;
+	}
+	.header2 {
+		float:right;
+		width: 50% !important;
+	}
+
+	.memberlogocontainer {
+		position:absolute;
+		width:50%;
+
+		&.left{
+			left:0;
+			bottom:-100%;
+		}
+
+		&.right {
+			left: 50%;
+			bottom:-50%;
+		}
+	}
+
+	.logo {
+		width: 100%;
+	 	height: 220px;
+	 	background-position: center;
+	 	background-size: 80%;
+		display: inline-block;
+		background-repeat: no-repeat;
+		margin-bottom: -10px !important;
+	
+		&.light {
+			background-color:#f0f0f0;
+		}
+
+		&.dark {
+			background-color:#ededed;
+		}
+	}
+
+}
+
+#getintouch {
+	a {
+		color: #919191;
+		font-size: 1.2em;
+	}
+
+	&:hover{
+	  color: #000000;
+	}
+
+}
+
+#ideoteam {
+	background: #e7e7e7;
+
+	#ideoteamphotos {
+		margin-top: 0px;
+	}
+
+	.ideoteamphoto {
+		width: 150px;
+	 	height: 150px;
+	 	background-position: center;
+	 	background-repeat: no-repeat;
+		display: inline-block;
+		margin-top: 40px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	#ideoteamnames {
+
+	}
+
+	.ideoteamname {
+		display: inline-block;
+		width: 150px;
+		height: 30px;
+		margin-top: 5px;
+		margin-right: 20px;
+		margin-left: 20px;
+
+		span.name {
+			border-bottom: 3px solid #000000;
+		    font-family: 'BrandonBlack', Helvetica, Arial, sans-serif;
+		    font-style: normal;
+	    }
+
+	    span.uni {
+	    	padding-top:10px;
+			display: block;
+		    font-family: 'BrandonRegular', Helvetica, Arial, sans-serif;
+	    }
+	}
+}
+
+#aboutfooter {
+	position:relative;
+	width:100%;
+	margin: auto;
+	height:40px;
+	background-size: 100%;
+	cursor:pointer;
+}
+
+#footercontainer {
+	margin-left: 20px;
+	bottom: 15px;
+	position:absolute;
+	text-align: left;
+	width:400px;
+
+	#thelab {
+		height: 11px;
+	}
+
+	#posts {
+		height: 11px;
+	}
+
+	#explorations {
+		height: 11px;
+	}
+
+	#futureslogo {
+		height: 11px;
+		vertical-align: middle;
+	}
+
+	#twittericon {
+		height: 11px;
+	}
+
+	#mailicon {
+		height: 11px;
+	}
+
+	a {
+	  margin-right:20px;
+	  display: inline-block;
+	  color: #ffffff;
+
+	  &:hover{
+	    color: #ffffff;
+	  }
+	}
+}

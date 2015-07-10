@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="66px" height="61px" viewBox="0 0 66 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Node9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <polygon id="Triangle-1-Copy-6" fill="#86E9D9" sketch:type="MSShapeGroup" points="32.7338089 0.75 65.5134881 60.06561 -0.0458703377 60.06561 "></polygon>
+        <text id="+-copy-24" sketch:type="MSTextLayer" transform="translate(32.733809, 40.065647) rotate(-315.000000) translate(-32.733809, -40.065647) " font-family="Brandon Grotesque" font-size="40" font-weight="bold" fill="#FFFFFF">
+            <tspan x="21.2338089" y="53.565647">+</tspan>
+        </text>
+    </g>
+</svg>

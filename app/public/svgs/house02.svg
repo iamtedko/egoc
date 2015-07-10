@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="246px" height="286px" viewBox="0 0 246 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>HomeRepair1-Solar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.175 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <polygon id="Polygon-1-Copy-17" opacity="0" fill="#ECECEC" sketch:type="MSShapeGroup" points="123.052011 0.147488558 245.617991 71.3809657 245.617991 213.84792 123.052011 285.081397 0.486031694 213.84792 0.486031694 71.3809657 "></polygon>
+        <rect id="Rectangle-173" fill="#C8E8A7" sketch:type="MSShapeGroup" x="69" y="106" width="109" height="65"></rect>
+        <path d="M126.822686,172.16807 L126.822686,183.567276 L143.921494,183.567276 L143.921494,192.11668 L101.050569,192.11668 L101.050569,183.567276 L118.149377,183.567276 L118.149377,172.16807 L66.7290475,172.16807 L66.7290475,103.525027 L178.243016,103.525027 L178.243016,172.16807 L126.822686,172.16807 L126.822686,172.16807 Z M102.413517,109.22463 L72.4286504,109.22463 L72.4286504,123.473637 L102.413517,123.473637 L102.413517,109.22463 L102.413517,109.22463 Z M102.413517,129.297145 L72.4286504,129.297145 L72.4286504,145.033005 L102.413517,145.033005 L102.413517,129.297145 L102.413517,129.297145 Z M102.413517,150.732607 L72.4286504,150.732607 L72.4286504,166.468467 L102.413517,166.468467 L102.413517,150.732607 L102.413517,150.732607 Z M136.735039,109.22463 L108.237025,109.22463 L108.237025,123.473637 L136.735039,123.473637 L136.735039,109.22463 L136.735039,109.22463 Z M136.735039,129.297145 L108.237025,129.297145 L108.237025,145.033005 L136.735039,145.033005 L136.735039,129.297145 L136.735039,129.297145 Z M136.735039,150.732607 L108.237025,150.732607 L108.237025,166.468467 L136.735039,166.468467 L136.735039,150.732607 L136.735039,150.732607 Z M172.543413,109.22463 L142.558546,109.22463 L142.558546,123.473637 L172.543413,123.473637 L172.543413,109.22463 L172.543413,109.22463 Z M172.543413,129.297145 L142.558546,129.297145 L142.558546,145.033005 L172.543413,145.033005 L172.543413,129.297145 L172.543413,129.297145 Z M172.543413,150.732607 L142.558546,150.732607 L142.558546,166.468467 L172.543413,166.468467 L172.543413,150.732607 L172.543413,150.732607 Z" id="Shape" fill="#000000" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

@@ -1,0 +1,75 @@
+a {
+  color: inherit;
+  text-decoration: none; }
+  a:hover {
+    color: inherit;
+    text-decoration: underline; }
+
+.learn-container {
+  border-top-style: solid;
+  border-top-width: 2px;
+  height: 65px; }
+
+.do-container {
+  border-top-style: solid;
+  border-top-width: 1px; }
+
+.venture-item {
+  border-top-color: #58585b;
+  color: #58585b; }
+
+.customer-item {
+  border-top-color: #f26c54;
+  color: #f26c54; }
+
+.experience-item {
+  border-top-color: #1d597e;
+  color: #1d597e; }
+
+.business-item {
+  border-top-color: #62c4b0;
+  color: #62c4b0; }
+
+.learn-item-header {
+  font-family: "MarkBlack", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.learn-item-sub-header {
+  font-family: "CircularStdBook" sans-serif;
+  font-size: 11px;
+  text-transform: uppercase; }
+
+.do-item-header {
+  font-family: "CircularStdBlack", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.do-item {
+  font-family: "SentinelBook", sans-serif;
+  font-size: 14px;
+  text-transform: capitalize; }
+
+@font-face {
+  font-family: 'MarkBlack';
+  src: url("../fonts/MarkPro-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'CircularStdBook';
+  src: url("../fonts/CircularStd-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'CircularStdBlack';
+  src: url("../fonts/CircularStd-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'SentinelBook';
+  src: url("../fonts/Sentinel-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*# sourceMappingURL=toolkit.css.map */

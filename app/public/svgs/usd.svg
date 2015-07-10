@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="438px" height="208px" viewBox="0 0 438 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 87 + Path 608 Copy 2 + Line + Rectangle 108 + S</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.245 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-87-+-Path-608-Copy-2-+-Line-+-Rectangle-108-+-S" sketch:type="MSLayerGroup" transform="translate(3.000000, 6.000000)">
+            <g id="Oval-87-+-Path-608-Copy-2" transform="translate(0.000000, 37.000000)" stroke="#353535" stroke-width="7" sketch:type="MSShapeGroup" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M430.700614,161.178961 C407.085976,68.5164989 323.199533,2.7000624e-13 223.337138,2.7000624e-13 C127.074307,2.7000624e-13 45.6564694,63.6661342 18.7600993,151.255037" id="Oval-87"></path>
+                <path d="M0.526760641,130.310873 L16.1085571,155.825238 L50.6359491,144.010084" id="Path-608-Copy-2"></path>
+            </g>
+            <g id="Line-+-Rectangle-108-+-S" transform="translate(147.000000, 0.000000)">
+                <rect id="Rectangle-108" stroke="#353535" stroke-width="6" fill="#F6F6F6" filter="url(#filter-1)" sketch:type="MSShapeGroup" transform="translate(71.000000, 36.862200) rotate(-270.000000) translate(-71.000000, -36.862200) " x="35.0669875" y="-33.9091475" width="71.866025" height="141.542695" rx="6.75"></rect>
+                <text id="$" sketch:type="MSTextLayer" font-family="Brandon Grotesque" font-size="49.5999985" font-weight="420" fill="#353535">
+                    <tspan x="59" y="54">$</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="246px" height="286px" viewBox="0 0 246 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Team1-Blockers</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.175 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M122,76.5 L122,203.421234" id="Line-Copy-13" stroke="#272727" stroke-width="4" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <polygon id="Polygon-1-Copy-8" opacity="0" fill="#ECECEC" sketch:type="MSShapeGroup" points="122.56598 0.147488558 245.13196 71.3809657 245.13196 213.84792 122.56598 285.081397 -1.4417669e-13 213.84792 -2.22588575e-13 71.3809657 "></polygon>
+        <path d="M154.911594,195.494219 L154.911594,125.411579 L172.180465,142.138464 L190.025717,120.506418 L160.319606,89.1779033 L137.066343,82.1474886 C137.066343,82.1474886 131.309657,86.4727117 122.108922,86.4727117 C122.108922,86.4727117 112.910559,87.0158847 107.142013,82.1474886 L83.5222865,89.3593563 L54,120.87051 L70.2204761,142.319917 L86.9521042,125.051045 L86.7706512,195.494219 L154.911594,195.494219 Z" id="Shape" fill="#2E2E2E" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+        <g id="Shape-Copy-2-+-Rectangle-169-+-Rectangle-169-Copy-Copy" sketch:type="MSLayerGroup" transform="translate(107.000000, 121.147489)">
+            <g id="Rectangle-169-+-Rectangle-169-Copy" sketch:type="MSShapeGroup">
+                <g>
+                    <rect id="Rectangle-169" fill="#A659B6" x="0.565875612" y="14.4297644" width="14.3851537" height="13.9487722"></rect>
+                    <rect id="Rectangle-169-Copy" fill="#D699E3" x="13.9920191" y="0.94595122" width="14.3851537" height="13.9487722"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

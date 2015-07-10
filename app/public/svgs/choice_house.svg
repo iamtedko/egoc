@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="246px" height="286px" viewBox="0 0 246 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Option2-HomeRepair</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="10.1121938%" y1="16.2128598%" x2="100%" y2="81.8570223%" id="linearGradient-1">
+            <stop stop-color="#6A6A6A" offset="0%"></stop>
+            <stop stop-color="#4B4B4B" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.175 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.175 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Option2-HomeRepair" sketch:type="MSArtboardGroup" transform="translate(0.013968, 0.500000)" fill="url(#linearGradient-1)">
+            <path d="M99.5681753,125.732318 L128.191765,142.21622 L128.191765,175.184025 L99.5681753,191.667927 L70.9445852,175.184025 L70.9445852,142.21622 L99.5681753,125.732318 Z M99.5681753,173.326684 C107.666753,173.326684 114.231947,166.778149 114.231947,158.700122 C114.231947,150.622096 107.666753,144.073561 99.5681753,144.073561 C91.469598,144.073561 84.904404,150.622096 84.904404,158.700122 C84.904404,166.778149 91.469598,173.326684 99.5681753,173.326684 Z" id="Polygon-35-Copy" filter="url(#filter-2)" sketch:type="MSShapeGroup"></path>
+            <path d="M145.563784,82.3981642 L174.187374,98.8820666 L174.187374,131.849871 L145.563784,148.333774 L116.940194,131.849871 L116.940194,98.8820666 L145.563784,82.3981642 Z M145.563784,129.99253 C153.662362,129.99253 160.227556,123.443996 160.227556,115.365969 C160.227556,107.287942 153.662362,100.739408 145.563784,100.739408 C137.465207,100.739408 130.900013,107.287942 130.900013,115.365969 C130.900013,123.443996 137.465207,129.99253 145.563784,129.99253 Z" id="Polygon-35-Copy-2" filter="url(#filter-3)" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

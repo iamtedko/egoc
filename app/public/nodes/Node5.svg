@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="78px" height="74px" viewBox="0 0 78 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Node5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <polygon id="Polygon-11-Copy-10" stroke="#A0E15F" stroke-width="6" fill="#A0E15F" sketch:type="MSShapeGroup" points="39 4.20305277 73.8439434 29.7061825 60.5347413 70.9711133 17.4652587 70.9711133 4.15605657 29.7061825 "></polygon>
+        <text id="+-copy-24" sketch:type="MSTextLayer" transform="translate(39.104447, 41.703053) rotate(-315.000000) translate(-39.104447, -41.703053) " font-family="Brandon Grotesque" font-size="40" font-weight="bold" fill="#FFFFFF">
+            <tspan x="27.6044471" y="55.2030528">+</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="311px" height="311px" viewBox="0 0 311 311" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 87 + Line + B</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-87-+-Line-+-B" sketch:type="MSLayerGroup" transform="translate(5.000000, 5.000000)">
+            <circle id="Oval-87" stroke="#B4E483" stroke-width="10" sketch:type="MSShapeGroup" cx="150.181641" cy="150.818359" r="150.181641"></circle>
+            <g id="Line-+-B" transform="translate(90.216816, 11.558400)">
+                <path d="M1.2529499,172 L65.4888365,172" id="Line" stroke="#B8E986" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <text id="B" sketch:type="MSTextLayer" font-family="Brandon Grotesque" font-size="199.25089" font-weight="normal" fill="#B4E483">
+                    <tspan x="0.126474952" y="209.166211">B</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

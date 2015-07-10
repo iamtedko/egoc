@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Address07</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Address07" sketch:type="MSArtboardGroup" stroke="#FFFFFF" stroke-width="4.032">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(45.000000, 45.000000)">
+                <polygon id="Polygon-1-Copy" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" points="79.4775242 0.530051848 147.868107 40.2776148 147.868107 119.772741 79.4775242 159.520303 11.0869418 119.772741 11.0869418 40.2776148 "></polygon>
+                <polygon id="Polygon-1-Copy-5" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" points="80.146767 32.8670522 121.297033 56.7829587 121.297033 104.614772 80.146767 128.530678 38.9965013 104.614772 38.9965013 56.7829587 "></polygon>
+                <path d="M79.8360262,129 L79.8360262,158.846616" id="Line" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M78.8360262,1.20373935 L78.8360262,33.5407397" id="Line-Copy-13" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M134.486014,97.5794374 L132.952007,126.364047" id="Line-Copy-15" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(133.964577, 111.882130) rotate(-60.000000) translate(-133.964577, -111.882130) "></path>
+                <path d="M25.6944642,33.1573814 L25.6944642,63.8738545" id="Line-Copy-14" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(26.173028, 48.863167) rotate(-60.000000) translate(-26.173028, -48.863167) "></path>
+                <path d="M131.891425,32.8065039 L133.348208,63.5701485" id="Line-Copy-15" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(132.869988, 48.132816) rotate(-120.000000) translate(-132.869988, -48.132816) "></path>
+                <path d="M25.2159008,94.8344224 L25.2159008,125.229455" id="Line-Copy-14" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(25.694464, 110.218767) rotate(-120.000000) translate(-25.694464, -110.218767) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

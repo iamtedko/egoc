@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Address12</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Address12" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(45.000000, 45.000000)" stroke="#FFFFFF" stroke-width="4.032" stroke-linecap="round" stroke-linejoin="round">
+                <polygon id="Polygon-1-Copy" sketch:type="MSShapeGroup" points="79.4775242 0.530051848 147.868107 40.2776148 147.868107 119.772741 79.4775242 159.520303 11.0869418 119.772741 11.0869418 40.2776148 "></polygon>
+            </g>
+            <path d="M129.781813,101.040389 L120.85575,101.040389 L120.85575,120.042645 L103.003625,113.316183 L99.9721321,121.387937 L117.824257,127.778076 L106.877199,143.080778 L114.455932,148.293786 L125.40299,132.150277 L137.023713,148.293786 L143.92878,143.080778 L132.813306,127.778076 L151.17068,121.387937 L147.802354,113.316183 L129.781813,120.042645 L129.781813,101.040389 Z" id="*-copy" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
