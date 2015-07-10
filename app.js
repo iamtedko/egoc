@@ -34,7 +34,7 @@ app.get('/egoc', function(req, res) {
   slack.setWebhook(webhookUri);
 
   slack.webhook({
-	channel: sender,
+	channel: "@" + sender,
 	username: "EGOC",
 	icon_emoji: "http://oi58.tinypic.com/ruryq0.jpg",
 	text: "This is posted to #general and comes from a bot named webhookbot."
