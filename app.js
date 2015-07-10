@@ -44,10 +44,10 @@ app.get('/egoc', function(req, res) {
   slack.setWebhook(webhookUri);
 
   slack.webhook({
-	channel: "@tko",
+	channel: recipient,
 	username: "EGOC",
 	icon_emoji: "http://oi58.tinypic.com/ruryq0.jpg",
-	text: recipient + "egoc_message"
+	text: egoc_message
 	}, function(err, response) {
 	console.log(response);
   });
