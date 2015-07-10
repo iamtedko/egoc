@@ -47,7 +47,7 @@ app.get('/egoc', function(req, res) {
 	channel: recipient,
 	username: "EGOC",
 	icon_emoji: "http://oi58.tinypic.com/ruryq0.jpg",
-	text: egoc_message
+	text: "egoc_message"
 	}, function(err, response) {
 	console.log(response);
   });
