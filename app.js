@@ -26,7 +26,6 @@ app.get('/egoc', function(req, res) {
   res.type('text/html');
   res.send('You initiated an EGOC greeting!');
 
-  var sender = req.query.user_name;
   var recipient = req.query.text;
 
   webhookUri = "https://hooks.slack.com/services/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";
@@ -48,7 +47,7 @@ app.get('/egoc', function(req, res) {
 	channel: "@tko",
 	username: "EGOC",
 	icon_emoji: "http://oi58.tinypic.com/ruryq0.jpg",
-	text: egoc_message + "egoc_message"
+	text: recipient + "egoc_message"
 	}, function(err, response) {
 	console.log(response);
   });
