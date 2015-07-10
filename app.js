@@ -24,9 +24,9 @@ app.use("/slacktip", express.static(path.join(__dirname, '/app/slacktip')));
 // Redirects to index.html, seems to be required for heroku
 app.get('/egoc', function(req, res) {
   res.type('text/html');
-  res.send('You initiated an EGOC greeting!');
 
   var recipient = String(req.query.text);
+  res.send('You initiated an EGOC greeting to ' + recipient);
 
   webhookUri = "https://hooks.slack.com/services/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";
 
