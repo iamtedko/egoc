@@ -26,7 +26,7 @@ app.get('/egoc', function(req, res) {
   res.type('text/html');
   res.send('You initiated an EGOC greeting!');
 
-  var recipient = req.query.text;
+  var recipient = String(req.query.text);
 
   webhookUri = "https://hooks.slack.com/services/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";
 
